@@ -1,0 +1,10 @@
+execution:
+- executor: jmeter
+scenario: example
+
+
+scenarios:
+example:
+script: tests/jmeter/test_plan.jmx
+hold-for: 1m
+concurrency: 10
